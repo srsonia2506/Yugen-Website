@@ -6,5 +6,28 @@ body {
     ),
     url(images/bg.jpg);
     background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
+h1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.title {
+  color: #fff;
+  font-family: 'Julius Sans One', sans-serif;
+  overflow: hidden;
+  text-shadow: -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.title::selection {
+  background: #000;
 }
